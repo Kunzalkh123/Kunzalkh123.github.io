@@ -1,0 +1,97 @@
+
+  body {
+    font-family:  sans-serif;
+    margin: 0; padding: 0;
+    background: #bd0890;
+    color: #333;
+  }
+  a {
+    color: #1cb9ce;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background: #222;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  header h1 {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  nav a {
+    margin-left: 1.3rem;
+    font-weight: 600;
+  }
+  nav a.active {
+    color: #01d28e;
+  }
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 16px #ddd;
+  }
+  h2 {
+    margin-top: 1rem;
+    font-weight: 700;
+    color: #222;
+  }
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    padding: 2rem 2rem 3rem 2rem;
+    align-items: center;
+  }
+  .profile img {
+    border-radius: 50%;
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    flex-shrink: 0;
+  }
+  .profile-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  .profile-info p {
+    font-size: 1.05rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  .skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .skills-list li {
+    background: #01d28e;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
