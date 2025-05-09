@@ -4,10 +4,10 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font:400; /* Used the font and the font family as per the requirement */
-    margin: 0px;
-    padding: 0px; /* Padding and margin is kept to zero so there is no white space */
+  background-image:url(bg.PNG);
+  font-family: cursive;
+  color: #202d71;
+  font-size: 18px; /* gave a background image, changed the font, colour and font size */
 }
 
 header{
@@ -43,7 +43,6 @@ main{
 
 .sidebar{
     flex: 1;
-    background-color: #f842bb; /* Changed the background colour according to the requirement */
     padding: 30px;  
     color: #030303; /* Colour of the text */
     margin-top: 20px; /* Spacing between the top and the sidebar*/
