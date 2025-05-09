@@ -1,25 +1,22 @@
+div.gallery {
+  margin: 5px;
+  border: 1px solid #db1414;
+  float: left;
+  width: 500px;
+   background-color: #eb5a8a;
 
-        #basic styling for the body
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 50 auto;
-            padding: 30px;
-        }
-        #styling for image
-        image-container {
-            margin-bottom: 40px;
-            text-align: center;
-            
-        }
+}
 
-        #styling for images with CSS filters
-        img {
-            filter: brightness(125%) contrast(115%) saturate(100%);
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 15px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(9, 175, 125, 0.849);
-        }
- 
+div.gallery:hover {
+  border: 1px solid #8b2d2d;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

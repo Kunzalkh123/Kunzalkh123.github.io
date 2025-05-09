@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font:400; /* Used the font and the font family as per the requirement */
+    margin: 0px;
+    padding: 0px; /* Padding and margin is kept to zero so there is no white space */
+}
+
+header{
+    color: white; /* Colour of the text */
+    background-color:  #b859ab; /* Changed the background colour according to the requirement */
+    text-align: center; /* Aligned the text to the center */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 700; /* Used the font and the font family as per the requirement */
+    padding: 20px 0; /* Length and percent of the padding */
+}
+
+nav a{
+    color: white; /* Colour of the text */
+    font-family: Arial, Helvetica, sans-serif; 
+    font: 400; /* Used the font and the font family as per the requirement */
+    font-size: large; /* Size of the font is made large */
+    text-decoration: none;
+    padding: 10px;
+}
+
+main{
+    display: flex;  /* To split the page into two */
+    font-family:Arial, Helvetica, sans-serif; 
+    font: 400; /* Used the font and the font family as per the requirement */
+}
+
+.welcome{
+    font-size:larger;
+    flex: 2;
+    color: #000000; /* Colour of the text */
+    padding: 30px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: #f842bb; /* Changed the background colour according to the requirement */
+    padding: 30px;  
+    color: #030303; /* Colour of the text */
+    margin-top: 20px; /* Spacing between the top and the sidebar*/
+    margin-bottom: 20px; /* Spacing between the bottom and the sidebar */
+    font-size: larger; /* Makes the font look larger */
+}
+
+.sidebar ul li{
+    list-style-type: none;
+    padding-bottom: 20px; /* Spacing between the lists */
+}
+
+.sidebar ul li::before{
+    content: "-"; /* To give dash to the lists*/
+    text-indent: 5px;
+    color: #37a0ad; /* Colour of the text */
+}
