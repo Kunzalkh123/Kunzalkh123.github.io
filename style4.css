@@ -26,6 +26,7 @@ nav a{
     font-size: large; /* Size of the font is made large */
     text-decoration: none;
     padding: 10px;
+
 }
 
 main{
@@ -37,7 +38,7 @@ main{
 .welcome{
     font-size:larger;
     flex: 2;
-    color: #000000; /* Colour of the text */
+    color: #b93e90; /* Colour of the text */
     padding: 30px;
 }
 

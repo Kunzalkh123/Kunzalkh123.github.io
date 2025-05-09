@@ -2,7 +2,29 @@
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
 }
+body{
+  font-family: cursive;
+  color: #b93e90 ;
+  font-size: 18px; /* gave a background image, changed the font, colour and font size */
+}
 
+header{
+    color: white; /* Colour of the text */
+    background-color:  #b859ab; /* Changed the background colour according to the requirement */
+    text-align: center; /* Aligned the text to the center */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 700; /* Used the font and the font family as per the requirement */
+    padding: 20px 0; /* Length and percent of the padding */
+}
+
+nav a{
+    color: rgb(255, 255, 255); /* Colour of the text */
+    font-family: Arial, Helvetica, sans-serif; 
+    font: 400; /* Used the font and the font family as per the requirement */
+    font-size: large; /* Size of the font is made large */
+    text-decoration: none;
+    padding: 10px;
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #db1414;
