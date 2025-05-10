@@ -1,5 +1,5 @@
  const starsContainer = document.getElementById('stars-container');
-  const starCount = 80;
+  const starCount = 20;
   const sizeClasses = ['small', 'medium', 'large'];
   function createStar() {
     const star = document.createElement('div');
