@@ -1,16 +1,9 @@
-@media screen and (min-width: 480px) {
+ @media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
 }
-
-body{
-  font-family: cursive;
-  color: #1b1318 ;
-  font-size: 18px; /* gave a background image, changed the font, colour and font size */
-}
-
-header{
-    color: white; /* Colour of the text */
+ header{
+    color: rgb(247, 240, 240); /* Colour of the text */
     background-color:  #b859ab; /* Changed the background colour according to the requirement */
     text-align: center; /* Aligned the text to the center */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,28 +12,12 @@ header{
 }
 
 nav a{
-    color: rgb(255, 255, 255); /* Colour of the text */
+    color: rgb(248, 246, 246); /* Colour of the text */
     font-family: Arial, Helvetica, sans-serif; 
     font: 400; /* Used the font and the font family as per the requirement */
     font-size: large; /* Size of the font is made large */
     text-decoration: none;
     padding: 10px;
-}
-
-main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    background:rgb(235, 143, 173);
-    border-radius: 10px;
-    box-shadow: 0 0 16px #ddd;
-  }
-
-.welcome{
-    font-size:larger;
-    flex: 2;
-    color: #000000; /* Colour of the text */
-    padding: 30px;
 }
  #homeButton {
       background-color: #00bcd4;
