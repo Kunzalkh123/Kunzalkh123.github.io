@@ -14,7 +14,7 @@ header{
     color: white; /* Colour of the text */
     background-color:  #b859ab; /* Changed the background colour according to the requirement */
     text-align: center; /* Aligned the text to the center */
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
     font: 700; /* Used the font and the font family as per the requirement */
     padding: 20px 0; /* Length and percent of the padding */
 }
