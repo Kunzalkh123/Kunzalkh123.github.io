@@ -5,8 +5,7 @@
 
 body{
   background-image:url(bg.PNG);
-  font-family: cursive;
-  color: #202d71;
+  font-family:'Dancing Script', cursive; /* Same cursive font */; ;
   font-size: 18px; /* gave a background image, changed the font, colour and font size */
 }
 
@@ -31,7 +30,7 @@ nav a{
 
 main{
     display: flex;  /* To split the page into two */
-    font-family:'Dancing Script', cursive; /* Same cursive font */; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Same cursive font */; 
     font: 400; /* Used the font and the font family as per the requirement */
 }
 
